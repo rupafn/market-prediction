@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  web:
+        depends_on:
+        - "flask"
+        build: stock-prediction-app
+        ports:
+        - "8901:8901"
+  flask:
+        build: flask-api
+        ports:
+        - "8009:8009"

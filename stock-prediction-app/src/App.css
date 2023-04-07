@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app-container {
+  padding-top: 20px;
+}
+
+.dropdown-select{
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.dropdown-select:active {
+  background-color: transparent!important;
+  color: black!important;
+}
+
+.dropdown-select::after {
+  display: none
+}
+
+.header-font {
+  font-family: 'League Gothic';
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.header-icon {
+  vertical-align: sub;
+}
+
+.refresh-btn {
+  font-size: 12px;
+  background-color: rgb(140,82,255);
+  border-color:rgb(139,61,255);
+  border-radius: 15px;
+}
+
+.custom-width-filter {
+  width: 5%!important;
+  color: whitesmoke;
+}
+
+.filter-btn {
+  background-color: black;
+  border-color: black;
+}
+
+.filter-btn:hover {
+  background-color: black;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.filter-btn:active {
+  background-color: black!important;
+}
