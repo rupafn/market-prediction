@@ -1,9 +1,7 @@
 import './App.css';
 import Card from 'react-bootstrap/Card';
-import * as d3 from 'd3';
 import Container from 'react-bootstrap/Container'
 import React from 'react';
-import Stock from './assets/stock.csv';
 import Header from './components/Header';
 import Cards from './components/Cards';
 import Analysis from './components/Analysis';
