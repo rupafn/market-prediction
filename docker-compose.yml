@@ -1,11 +1,13 @@
 version: '3.3'
 services:
-  web:
+  client:
         depends_on:
-        - "flask"
-        build: stock-prediction-app
-        ports:
-        - "8901:8901"
+                - flask
+        image: nginx:latest
+        ports: 
+                - "8900:80"
+        volumes:
+                - ./stock-prediction-app/build:/usr/share/nginx/html
   flask:
         build: flask-api
         ports:
