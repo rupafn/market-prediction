@@ -49,7 +49,7 @@ class App extends React.Component {
   }
 
   updateData() {
-    axios.get(`http://127.0.0.1:8009/getModelResult?name=${this.state.stock_name}`).then(
+    axios.get(`http://projects.fnahar.me:8009/getModelResult?name=${this.state.stock_name}`).then(
       res => {
         console.log(res)
         this.setState({
