@@ -25,4 +25,4 @@ This is a two part project as follows:
 This project is deployed using Docker Compose
 
 ## Link to Project
-* http://projects.fnahar.me/market-prediction
+* [http://projects.fnahar.me/market-prediction](http://projects.fnahar.me:8900/)http://projects.fnahar.me:8900/
